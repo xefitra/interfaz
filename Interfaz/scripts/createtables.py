@@ -1,5 +1,8 @@
 #-*- coding: utf-8 -*-
 #!/usr/bin/python3
+
+# La corrección a este script se encuentra en searchentry.py
+
 import os
 import sqlite3
 
