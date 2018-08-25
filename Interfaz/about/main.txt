@@ -1,0 +1,18 @@
+En el siguiente documento se describen las funciones con las que debe cumplir el
+sistema:
+
+FUNCIONES GENERALES
+
+- Manejo de datos
+- Sincronización con recolección de datos
+- Generación de reportes
+
+FUNCIONES ESPECIFICAS
+
+- Manejo de datos
+  - Creación modificación y eliminado de bases de datos, de acuerdo a la base de
+  datos central "pacientes.db"
+  - Crear nuevas tablas, nuevas entradas, imprimir información
+  - Obtener información de las bases de datos y graficarla
+  - Guardar información proveniente de sensores y tiempos
+  - Sincronización con de codigo con la interfaz

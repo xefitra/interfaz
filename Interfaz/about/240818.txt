@@ -1,0 +1,5 @@
+Se generaron scripts sobre manejo de bases de datos, cubriendo las siguientes temáticas:
+- Creación de bases de datos
+- Modificación de bases de datos
+- Nuevos registros
+- Selección de datos, graficación y exportado a formato de imagen.
