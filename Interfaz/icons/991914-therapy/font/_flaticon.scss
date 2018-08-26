@@ -1,0 +1,111 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 02/07/2018 08:24
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-001-yoga:before { content: "\f100"; }
+.flaticon-002-writing:before { content: "\f101"; }
+.flaticon-003-leech:before { content: "\f102"; }
+.flaticon-004-awaken:before { content: "\f103"; }
+.flaticon-005-swimming:before { content: "\f104"; }
+.flaticon-006-spa:before { content: "\f105"; }
+.flaticon-007-sound:before { content: "\f106"; }
+.flaticon-008-slumber:before { content: "\f107"; }
+.flaticon-009-reading:before { content: "\f108"; }
+.flaticon-010-radiation:before { content: "\f109"; }
+.flaticon-011-puzzle:before { content: "\f10a"; }
+.flaticon-012-physical:before { content: "\f10b"; }
+.flaticon-013-pet:before { content: "\f10c"; }
+.flaticon-014-oxygen:before { content: "\f10d"; }
+.flaticon-015-music:before { content: "\f10e"; }
+.flaticon-016-molecular:before { content: "\f10f"; }
+.flaticon-017-meditation:before { content: "\f110"; }
+.flaticon-018-magnet:before { content: "\f111"; }
+.flaticon-019-physiotherapy:before { content: "\f112"; }
+.flaticon-020-balance:before { content: "\f113"; }
+.flaticon-021-aromatherapy:before { content: "\f114"; }
+.flaticon-022-sauna:before { content: "\f115"; }
+.flaticon-023-gene:before { content: "\f116"; }
+.flaticon-024-gardening:before { content: "\f117"; }
+.flaticon-025-food:before { content: "\f118"; }
+.flaticon-026-family:before { content: "\f119"; }
+.flaticon-027-exercise:before { content: "\f11a"; }
+.flaticon-028-electric:before { content: "\f11b"; }
+.flaticon-029-education:before { content: "\f11c"; }
+.flaticon-030-drug:before { content: "\f11d"; }
+.flaticon-031-dance:before { content: "\f11e"; }
+.flaticon-032-cold:before { content: "\f11f"; }
+.flaticon-033-chemical:before { content: "\f120"; }
+.flaticon-034-color-palette:before { content: "\f121"; }
+.flaticon-035-essential-oils:before { content: "\f122"; }
+.flaticon-036-acupuncture:before { content: "\f123"; }
+    
+    $font-Flaticon-001-yoga: "\f100";
+    $font-Flaticon-002-writing: "\f101";
+    $font-Flaticon-003-leech: "\f102";
+    $font-Flaticon-004-awaken: "\f103";
+    $font-Flaticon-005-swimming: "\f104";
+    $font-Flaticon-006-spa: "\f105";
+    $font-Flaticon-007-sound: "\f106";
+    $font-Flaticon-008-slumber: "\f107";
+    $font-Flaticon-009-reading: "\f108";
+    $font-Flaticon-010-radiation: "\f109";
+    $font-Flaticon-011-puzzle: "\f10a";
+    $font-Flaticon-012-physical: "\f10b";
+    $font-Flaticon-013-pet: "\f10c";
+    $font-Flaticon-014-oxygen: "\f10d";
+    $font-Flaticon-015-music: "\f10e";
+    $font-Flaticon-016-molecular: "\f10f";
+    $font-Flaticon-017-meditation: "\f110";
+    $font-Flaticon-018-magnet: "\f111";
+    $font-Flaticon-019-physiotherapy: "\f112";
+    $font-Flaticon-020-balance: "\f113";
+    $font-Flaticon-021-aromatherapy: "\f114";
+    $font-Flaticon-022-sauna: "\f115";
+    $font-Flaticon-023-gene: "\f116";
+    $font-Flaticon-024-gardening: "\f117";
+    $font-Flaticon-025-food: "\f118";
+    $font-Flaticon-026-family: "\f119";
+    $font-Flaticon-027-exercise: "\f11a";
+    $font-Flaticon-028-electric: "\f11b";
+    $font-Flaticon-029-education: "\f11c";
+    $font-Flaticon-030-drug: "\f11d";
+    $font-Flaticon-031-dance: "\f11e";
+    $font-Flaticon-032-cold: "\f11f";
+    $font-Flaticon-033-chemical: "\f120";
+    $font-Flaticon-034-color-palette: "\f121";
+    $font-Flaticon-035-essential-oils: "\f122";
+    $font-Flaticon-036-acupuncture: "\f123";
