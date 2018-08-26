@@ -3,10 +3,9 @@
 # Form implementation generated from reading ui file 'sketch_1.ui'
 #
 # Created by: PyQt5 UI code generator 5.11.2
-#
-# WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+import interfaz
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -466,6 +465,7 @@ class Ui_MainWindow(object):
         MainWindow.setTabOrder(self.textEdit_2, self.commandLinkButton_6)
         MainWindow.setTabOrder(self.commandLinkButton_6, self.commandLinkButton_5)
 
+
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Rehabilitator"))
@@ -531,6 +531,8 @@ class Ui_MainWindow(object):
         self.actionGenerar_reporte_de_programa_2.setText(_translate("MainWindow", "Generar reporte de programa"))
         self.actionGenerar_historial_de_paciente.setText(_translate("MainWindow", "Generar historial de paciente"))
 
+    def function(self, MainWindow):
+        interfaz.funcionalidades(self, MainWindow)
 
 if __name__ == "__main__":
     import sys
@@ -538,6 +540,7 @@ if __name__ == "__main__":
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
+    ui.function(MainWindow)
     MainWindow.show()
-    sys.exit(app.exec_())
 
+    sys.exit(app.exec_())
