@@ -3,7 +3,7 @@
 # By: Diego A. Rueda Q.
 
 # Importando librerias
-from sketch_1 import Ui_MainWindow
+from sketch_3 import Ui_MainWindow
 from PyQt5 import QtCore, QtGui, QtWidgets
 import datetime
 import sqlite3, sys, os
@@ -34,7 +34,6 @@ def funcionalidades(self, MainWindow):
 
     self.actionNuevo.triggered.connect(index_1)
     self.actionNuevo_2.triggered.connect(index_1)
-    self.actionNuevo_registro.triggered.connect(index_0)
     self.actionNuevo_registro_2.triggered.connect(index_0)
     self.actionBuscar_registro_2.triggered.connect(search)
     self.actionBuscar_registro_3.triggered.connect(search)

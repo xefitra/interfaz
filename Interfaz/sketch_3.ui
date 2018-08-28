@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>890</width>
+    <height>656</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Rehabilitator</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icons/medicina.png</normaloff>icons/medicina.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="QStackedWidget" name="stackedWidget">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="currentIndex">
+          <number>1</number>
+         </property>
+         <widget class="QWidget" name="page_2">
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="0" column="0">
+            <widget class="QWidget" name="widget_2" native="true">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>600</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="contextMenuPolicy">
+              <enum>Qt::DefaultContextMenu</enum>
+             </property>
+             <property name="inputMethodHints">
+              <set>Qt::ImhPreferNumbers</set>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_3">
+              <item row="2" column="0">
+               <widget class="QComboBox" name="comboBox">
+                <property name="layoutDirection">
+                 <enum>Qt::LeftToRight</enum>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>CC</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>TI</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Pasaporte</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_3">
+                <property name="text">
+                 <string>Nombre:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QLabel" name="label_6">
+                <property name="text">
+                 <string>Genero:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="3">
+               <widget class="QLineEdit" name="lineEdit_3">
+                <property name="inputMethodHints">
+                 <set>Qt::ImhPreferNumbers</set>
+                </property>
+                <property name="maxLength">
+                 <number>2</number>
+                </property>
+                <property name="frame">
+                 <bool>true</bool>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1" colspan="3">
+               <widget class="QLineEdit" name="lineEdit">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="1" colspan="3">
+               <widget class="QTextEdit" name="textEdit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="2">
+               <widget class="QLabel" name="label_5">
+                <property name="text">
+                 <string>Edad:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QLineEdit" name="lineEdit_2">
+                <property name="inputMethodHints">
+                 <set>Qt::ImhFormattedNumbersOnly|Qt::ImhPreferNumbers</set>
+                </property>
+                <property name="maxLength">
+                 <number>10</number>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="cursorMoveStyle">
+                 <enum>Qt::LogicalMoveStyle</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="0">
+               <widget class="QLabel" name="label">
+                <property name="text">
+                 <string>Ocupación:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="0" alignment="Qt::AlignTop">
+               <widget class="QLabel" name="label_7">
+                <property name="text">
+                 <string>Observaciones:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="3">
+               <widget class="QDateEdit" name="dateEdit">
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+                <property name="calendarPopup">
+                 <bool>true</bool>
+                </property>
+                <property name="date">
+                 <date>
+                  <year>2018</year>
+                  <month>1</month>
+                  <day>1</day>
+                 </date>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="2">
+               <widget class="QLabel" name="label_4">
+                <property name="text">
+                 <string>Fecha:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1" alignment="Qt::AlignHCenter">
+               <widget class="QWidget" name="widget_3" native="true">
+                <layout class="QVBoxLayout" name="verticalLayout_2">
+                 <item>
+                  <widget class="QRadioButton" name="radioButton">
+                   <property name="text">
+                    <string>Femenino</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QRadioButton" name="radioButton_2">
+                   <property name="inputMethodHints">
+                    <set>Qt::ImhFormattedNumbersOnly</set>
+                   </property>
+                   <property name="text">
+                    <string>Masculino</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item row="5" column="1" colspan="3">
+               <widget class="QLineEdit" name="lineEdit_5">
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="1" colspan="3">
+               <widget class="QWidget" name="widget" native="true">
+                <layout class="QHBoxLayout" name="horizontalLayout">
+                 <item>
+                  <widget class="QCommandLinkButton" name="commandLinkButton_2">
+                   <property name="text">
+                    <string>Cancelar</string>
+                   </property>
+                   <property name="icon">
+                    <iconset>
+                     <normaloff>icons/126466-multimedia-collection/png/back.png</normaloff>icons/126466-multimedia-collection/png/back.png</iconset>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCommandLinkButton" name="commandLinkButton">
+                   <property name="text">
+                    <string>Continuar</string>
+                   </property>
+                   <property name="icon">
+                    <iconset>
+                     <normaloff>icons/126466-multimedia-collection/png/next-1.png</normaloff>icons/126466-multimedia-collection/png/next-1.png</iconset>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item row="0" column="1" colspan="3">
+               <widget class="QLabel" name="label_2">
+                <property name="text">
+                 <string>DATOS DEL PACIENTE</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page">
+          <layout class="QGridLayout" name="gridLayout_5">
+           <item row="0" column="1">
+            <spacer name="verticalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLabel" name="label_23">
+             <property name="text">
+              <string>Software para el control de sistema robotizado para rehabilitación de miembros superiores, se implementan bases de datos para la gestión de la información v1.0</string>
+             </property>
+             <property name="scaledContents">
+              <bool>false</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <spacer name="horizontalSpacer">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item row="3" column="1">
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item row="2" column="1" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="label_24">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>300</width>
+               <height>300</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>icons/medicina.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <spacer name="horizontalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_4">
+          <layout class="QGridLayout" name="gridLayout_11">
+           <item row="1" column="0">
+            <widget class="QTabWidget" name="tabWidget">
+             <property name="currentIndex">
+              <number>0</number>
+             </property>
+             <widget class="QWidget" name="tab">
+              <attribute name="title">
+               <string>Datos</string>
+              </attribute>
+              <layout class="QGridLayout" name="gridLayout_12">
+               <item row="0" column="0">
+                <widget class="QWidget" name="widget_8" native="true">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>600</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="focusPolicy">
+                  <enum>Qt::NoFocus</enum>
+                 </property>
+                 <property name="contextMenuPolicy">
+                  <enum>Qt::DefaultContextMenu</enum>
+                 </property>
+                 <property name="inputMethodHints">
+                  <set>Qt::ImhPreferNumbers</set>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_13">
+                  <item row="2" column="0">
+                   <widget class="QComboBox" name="comboBox_3">
+                    <property name="layoutDirection">
+                     <enum>Qt::LeftToRight</enum>
+                    </property>
+                    <item>
+                     <property name="text">
+                      <string>CC</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>TI</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Pasaporte</string>
+                     </property>
+                    </item>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QLabel" name="label_16">
+                    <property name="text">
+                     <string>Nombre:</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="4" column="0">
+                   <widget class="QLabel" name="label_17">
+                    <property name="text">
+                     <string>Genero:</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="3">
+                   <widget class="QLineEdit" name="lineEdit_8">
+                    <property name="inputMethodHints">
+                     <set>Qt::ImhPreferNumbers</set>
+                    </property>
+                    <property name="maxLength">
+                     <number>2</number>
+                    </property>
+                    <property name="frame">
+                     <bool>true</bool>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="1" colspan="3">
+                   <widget class="QLineEdit" name="lineEdit_9">
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>16777215</height>
+                     </size>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="6" column="1" colspan="3">
+                   <widget class="QTextEdit" name="textEdit_3">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="2">
+                   <widget class="QLabel" name="label_18">
+                    <property name="text">
+                     <string>Edad:</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="1">
+                   <widget class="QLineEdit" name="lineEdit_10">
+                    <property name="inputMethodHints">
+                     <set>Qt::ImhFormattedNumbersOnly|Qt::ImhPreferNumbers</set>
+                    </property>
+                    <property name="maxLength">
+                     <number>10</number>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                    <property name="cursorMoveStyle">
+                     <enum>Qt::LogicalMoveStyle</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="5" column="0">
+                   <widget class="QLabel" name="label_19">
+                    <property name="text">
+                     <string>Ocupación:</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="6" column="0" alignment="Qt::AlignTop">
+                   <widget class="QLabel" name="label_20">
+                    <property name="text">
+                     <string>Observaciones:</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="4" column="3">
+                   <widget class="QDateEdit" name="dateEdit_4">
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                    <property name="calendarPopup">
+                     <bool>true</bool>
+                    </property>
+                    <property name="date">
+                     <date>
+                      <year>2018</year>
+                      <month>1</month>
+                      <day>1</day>
+                     </date>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="4" column="2">
+                   <widget class="QLabel" name="label_21">
+                    <property name="text">
+                     <string>Fecha:</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="4" column="1" alignment="Qt::AlignHCenter">
+                   <widget class="QWidget" name="widget_9" native="true">
+                    <layout class="QVBoxLayout" name="verticalLayout_3">
+                     <item>
+                      <widget class="QRadioButton" name="radioButton_3">
+                       <property name="text">
+                        <string>Femenino</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QRadioButton" name="radioButton_4">
+                       <property name="inputMethodHints">
+                        <set>Qt::ImhFormattedNumbersOnly</set>
+                       </property>
+                       <property name="text">
+                        <string>Masculino</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                  <item row="5" column="1" colspan="3">
+                   <widget class="QLineEdit" name="lineEdit_11">
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="7" column="1" colspan="3">
+                   <widget class="QWidget" name="widget_10" native="true">
+                    <layout class="QHBoxLayout" name="horizontalLayout_2">
+                     <item>
+                      <widget class="QCommandLinkButton" name="commandLinkButton_7">
+                       <property name="text">
+                        <string>Guardar</string>
+                       </property>
+                       <property name="icon">
+                        <iconset>
+                         <normaloff>icons/126466-multimedia-collection/png/back.png</normaloff>icons/126466-multimedia-collection/png/back.png</iconset>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QCommandLinkButton" name="commandLinkButton_8">
+                       <property name="text">
+                        <string>Continuar</string>
+                       </property>
+                       <property name="icon">
+                        <iconset>
+                         <normaloff>icons/126466-multimedia-collection/png/next-1.png</normaloff>icons/126466-multimedia-collection/png/next-1.png</iconset>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                  <item row="0" column="1" colspan="3">
+                   <widget class="QLabel" name="label_22">
+                    <property name="text">
+                     <string>DATOS DEL PACIENTE</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="tab_2">
+              <attribute name="title">
+               <string>Programas</string>
+              </attribute>
+              <layout class="QGridLayout" name="gridLayout_14">
+               <item row="0" column="0">
+                <widget class="QStackedWidget" name="stackedWidget_2">
+                 <property name="currentIndex">
+                  <number>1</number>
+                 </property>
+                 <widget class="QWidget" name="page_5">
+                  <layout class="QGridLayout" name="gridLayout_16">
+                   <item row="0" column="0">
+                    <widget class="QWidget" name="widget_7" native="true">
+                     <layout class="QGridLayout" name="gridLayout_15">
+                      <item row="1" column="1" alignment="Qt::AlignRight">
+                       <widget class="QCommandLinkButton" name="commandLinkButton_9">
+                        <property name="text">
+                         <string>Ver información</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="0" alignment="Qt::AlignRight">
+                       <widget class="QCommandLinkButton" name="commandLinkButton_10">
+                        <property name="text">
+                         <string>Nuevo Programa</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="0" colspan="2">
+                       <widget class="QTreeWidget" name="treeWidget"/>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_6">
+                  <layout class="QGridLayout" name="gridLayout_17">
+                   <item row="0" column="0">
+                    <widget class="QWidget" name="widget_4" native="true">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>600</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <layout class="QGridLayout" name="gridLayout_6">
+                      <item row="1" column="0">
+                       <widget class="QLabel" name="label_9">
+                        <property name="text">
+                         <string>Sesiones totales</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="3">
+                       <widget class="QLineEdit" name="lineEdit_7">
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="2" column="3">
+                       <widget class="QDateEdit" name="dateEdit_3">
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="calendarPopup">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="3" column="0">
+                       <widget class="QLabel" name="label_15">
+                        <property name="text">
+                         <string>Observaciones:</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="2" column="0">
+                       <widget class="QLabel" name="label_13">
+                        <property name="text">
+                         <string>Fecha de inicio</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="3" column="1" colspan="3">
+                       <widget class="QTextEdit" name="textEdit_2">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="2" column="2">
+                       <widget class="QLabel" name="label_14">
+                        <property name="text">
+                         <string>Fecha de finalización</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="1">
+                       <widget class="QLineEdit" name="lineEdit_4">
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="2">
+                       <widget class="QLabel" name="label_12">
+                        <property name="text">
+                         <string>Sesiones por semana</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="2" column="1">
+                       <widget class="QDateEdit" name="dateEdit_2">
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                        <property name="calendarPopup">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="4" column="1" colspan="3">
+                       <widget class="QWidget" name="widget_6" native="true">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <layout class="QGridLayout" name="gridLayout_10">
+                         <item row="0" column="1">
+                          <widget class="QCommandLinkButton" name="commandLinkButton_5">
+                           <property name="sizePolicy">
+                            <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                             <horstretch>0</horstretch>
+                             <verstretch>0</verstretch>
+                            </sizepolicy>
+                           </property>
+                           <property name="text">
+                            <string>Continuar</string>
+                           </property>
+                           <property name="icon">
+                            <iconset>
+                             <normaloff>icons/126466-multimedia-collection/png/next-1.png</normaloff>icons/126466-multimedia-collection/png/next-1.png</iconset>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="0" column="0">
+                          <widget class="QCommandLinkButton" name="commandLinkButton_6">
+                           <property name="text">
+                            <string>Atrás</string>
+                           </property>
+                           <property name="icon">
+                            <iconset>
+                             <normaloff>icons/126466-multimedia-collection/png/back.png</normaloff>icons/126466-multimedia-collection/png/back.png</iconset>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </item>
+                      <item row="0" column="1" colspan="3">
+                       <widget class="QLabel" name="label_8">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string>NUEVO PROGRAMA</string>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignCenter</set>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="tab_3">
+              <attribute name="title">
+               <string>Test Inicial</string>
+              </attribute>
+             </widget>
+             <widget class="QWidget" name="tab_4">
+              <attribute name="title">
+               <string>Avance</string>
+              </attribute>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>890</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuRehabilitador">
+    <property name="title">
+     <string>Rehabilitador</string>
+    </property>
+    <addaction name="actionAcerca_de"/>
+    <addaction name="actionLicencia"/>
+    <addaction name="separator"/>
+    <addaction name="actionSalir"/>
+   </widget>
+   <widget class="QMenu" name="menuRegsitro">
+    <property name="title">
+     <string>Registros</string>
+    </property>
+    <addaction name="actionNuevo_registro_2"/>
+    <addaction name="actionBuscar_registro_3"/>
+    <addaction name="separator"/>
+    <addaction name="actionTodos_los_registros"/>
+   </widget>
+   <widget class="QMenu" name="menuPrograma">
+    <property name="title">
+     <string>Programa</string>
+    </property>
+    <addaction name="actionNuevo_2"/>
+    <addaction name="actionExistente"/>
+   </widget>
+   <widget class="QMenu" name="menuTerapias">
+    <property name="title">
+     <string>Terapias</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionActiva_2"/>
+    <addaction name="actionPasiva_2"/>
+    <addaction name="actionResistiva_2"/>
+    <addaction name="separator"/>
+    <addaction name="actionInformaci_n"/>
+   </widget>
+   <widget class="QMenu" name="menuReportes">
+    <property name="title">
+     <string>Reportes</string>
+    </property>
+    <addaction name="actionGenerar_reporte_de_sesi_n_2"/>
+    <addaction name="actionGenerar_reporte_de_programa_2"/>
+    <addaction name="actionGenerar_historial_de_paciente"/>
+   </widget>
+   <addaction name="menuRehabilitador"/>
+   <addaction name="menuRegsitro"/>
+   <addaction name="menuPrograma"/>
+   <addaction name="menuTerapias"/>
+   <addaction name="menuReportes"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QDockWidget" name="dockWidget_3">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>150</width>
+     <height>107</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>524287</width>
+     <height>524287</height>
+    </size>
+   </property>
+   <property name="floating">
+    <bool>false</bool>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_3">
+    <layout class="QGridLayout" name="gridLayout_8">
+     <item row="0" column="0">
+      <widget class="QScrollArea" name="scrollArea_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>400</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>267</width>
+          <height>573</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_9">
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_11">
+           <property name="text">
+            <string>Ingrese el número de identificación:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QCommandLinkButton" name="commandLinkButton_3">
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="text">
+            <string>Buscar</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_10">
+           <property name="text">
+            <string>BUSCAR REGISTROS</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLineEdit" name="lineEdit_6"/>
+         </item>
+         <item row="5" column="0" alignment="Qt::AlignHCenter">
+          <widget class="QCommandLinkButton" name="commandLinkButton_4">
+           <property name="text">
+            <string>Seleccionar entrada</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QTableWidget" name="tableWidget">
+           <column>
+            <property name="text">
+             <string>Nombre</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Id</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <action name="actionBuscar_registro">
+   <property name="text">
+    <string>Buscar registro</string>
+   </property>
+  </action>
+  <action name="actionBuscar_registro_2">
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/126466-multimedia-collection/png/magnifying-glass.png</normaloff>icons/126466-multimedia-collection/png/magnifying-glass.png</iconset>
+   </property>
+   <property name="text">
+    <string>Buscar</string>
+   </property>
+  </action>
+  <action name="actionNuevo_registro">
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/112154-web-navigation-line-craft/png/add-button.png</normaloff>icons/112154-web-navigation-line-craft/png/add-button.png</iconset>
+   </property>
+   <property name="text">
+    <string>Nuevo</string>
+   </property>
+  </action>
+  <action name="actionNuevo_registro_2">
+   <property name="text">
+    <string>Nuevo registro</string>
+   </property>
+  </action>
+  <action name="actionBuscar_registro_3">
+   <property name="text">
+    <string>Buscar registro</string>
+   </property>
+  </action>
+  <action name="actionTodos_los_registros">
+   <property name="text">
+    <string>Todos los registros</string>
+   </property>
+  </action>
+  <action name="actionAcerca_de">
+   <property name="text">
+    <string>Acerca de </string>
+   </property>
+  </action>
+  <action name="actionLicencia">
+   <property name="text">
+    <string>Licencia</string>
+   </property>
+  </action>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+  <action name="actionNuevo">
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/112154-web-navigation-line-craft/png/note.png</normaloff>icons/112154-web-navigation-line-craft/png/note.png</iconset>
+   </property>
+   <property name="text">
+    <string>Nuevo programa</string>
+   </property>
+  </action>
+  <action name="action_Existente">
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/126466-multimedia-collection/png/edit.png</normaloff>icons/126466-multimedia-collection/png/edit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Continuar con un programa existente</string>
+   </property>
+  </action>
+  <action name="actionNuevo_2">
+   <property name="text">
+    <string>Nuevo</string>
+   </property>
+  </action>
+  <action name="actionExistente">
+   <property name="text">
+    <string>Existente</string>
+   </property>
+  </action>
+  <action name="actionIniciarTerapia">
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/medicina.png</normaloff>icons/medicina.png</iconset>
+   </property>
+   <property name="text">
+    <string>Iniciar Terapia</string>
+   </property>
+  </action>
+  <action name="actionPasiva">
+   <property name="text">
+    <string>Pasiva</string>
+   </property>
+  </action>
+  <action name="actionResistiva">
+   <property name="text">
+    <string>Resistiva</string>
+   </property>
+  </action>
+  <action name="actionInformaci_n">
+   <property name="text">
+    <string>Información</string>
+   </property>
+  </action>
+  <action name="actionActiva_2">
+   <property name="text">
+    <string>Activa</string>
+   </property>
+  </action>
+  <action name="actionPasiva_2">
+   <property name="text">
+    <string>Pasiva</string>
+   </property>
+  </action>
+  <action name="actionResistiva_2">
+   <property name="text">
+    <string>Resistiva</string>
+   </property>
+  </action>
+  <action name="actionGenerarReporte">
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/126466-multimedia-collection/png/printer.png</normaloff>icons/126466-multimedia-collection/png/printer.png</iconset>
+   </property>
+   <property name="text">
+    <string>Generar reporte</string>
+   </property>
+  </action>
+  <action name="actionGenerar_reporte_de_programa">
+   <property name="text">
+    <string>Generar reporte de programa</string>
+   </property>
+  </action>
+  <action name="actionGenerar_historial_del_paciente">
+   <property name="text">
+    <string>Generar historial del paciente</string>
+   </property>
+  </action>
+  <action name="actionGenerar_reporte_de_sesi_n_2">
+   <property name="text">
+    <string>Generar reporte de sesión</string>
+   </property>
+  </action>
+  <action name="actionGenerar_reporte_de_programa_2">
+   <property name="text">
+    <string>Generar reporte de programa</string>
+   </property>
+  </action>
+  <action name="actionGenerar_historial_de_paciente">
+   <property name="text">
+    <string>Generar historial de paciente</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>lineEdit</tabstop>
+  <tabstop>comboBox</tabstop>
+  <tabstop>lineEdit_2</tabstop>
+  <tabstop>lineEdit_3</tabstop>
+  <tabstop>radioButton</tabstop>
+  <tabstop>radioButton_2</tabstop>
+  <tabstop>dateEdit</tabstop>
+  <tabstop>lineEdit_5</tabstop>
+  <tabstop>textEdit</tabstop>
+  <tabstop>commandLinkButton_2</tabstop>
+  <tabstop>commandLinkButton</tabstop>
+  <tabstop>scrollArea_2</tabstop>
+  <tabstop>lineEdit_6</tabstop>
+  <tabstop>commandLinkButton_3</tabstop>
+  <tabstop>tableWidget</tabstop>
+  <tabstop>commandLinkButton_4</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
